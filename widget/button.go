@@ -290,7 +290,8 @@ func (r *buttonRenderer) Layout(size fyne.Size) {
 		// Nothing to layout
 		return
 	}
-	iconSize := fyne.NewSquareSize(theme.IconInlineSize())
+	// iconSize := fyne.NewSquareSize(theme.IconInlineSize())
+	iconSize := fyne.NewSquareSize(200.0)
 	labelSize := r.label.MinSize()
 	padding := r.padding()
 	if hasLabel {
