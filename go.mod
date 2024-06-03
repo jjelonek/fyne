@@ -1,4 +1,4 @@
-module fyne.io/fyne/v2
+module jjelonek/fyne/v2
 
 go 1.17
 
